@@ -1,0 +1,14 @@
+# this are the requirements for this project in creating machine learning
+# pipelines using procedural programming
+
+numpy>=1.21.0,<2.0.0
+pandas>=1.3.5,<2.0.0
+pydantic>=1.8.1,<2.0.0
+scikit-learn>=1.1.3,<2.0.0
+strictyaml>=1.3.2,<2.0.0
+ruamel.yaml>=0.16.12,<1.0.0
+feature-engine>=1.0.2,<1.6.0  # breaking change in v1.6.0
+joblib>=1.0.1,<2.0.0
+matplotlib>=3.7.0,<3.8.0
+seaborn>=0.11.2,<0.12.2
+ipykernel>=6.9.0,<6.10.0
