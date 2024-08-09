@@ -1,4 +1,4 @@
-# House Price Prediction Project
+# End_to_End_House_Price_Prediction
 
 ![House Prices](https://github.com/yordanossimegnew/End_to_End_House_Price_Prediction/blob/690f40979a41340c5f56a59e7e7baaef8265c474/house%20image.jpg)
 ![Distribution of Residuals](https://github.com/yordanossimegnew/End_to_End_House_Price_Prediction/blob/690f40979a41340c5f56a59e7e7baaef8265c474/reports/figures/Distibution%20of%20Residuals.jpg)
