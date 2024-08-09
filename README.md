@@ -8,8 +8,9 @@ Welcome to the House Price Prediction project! This repository contains a compre
 ## Features
 - **Data Preprocessing**: Clean and prepare raw data for analysis.
 - **Feature Engineering**: Transform and engineer features to enhance model performance.
+- **Feature Selection**: Selecting good features for the model prediction.
 - **Model Training**: Implement and train regression models.
-- **Model Evaluation**: Evaluate model performance using key metrics.
+- **Model Evaluation**: Evaluate model performance using r2_score and mean_squared_error.
 - **Model Deployment**: Serialize and deploy models for real-time prediction.
 
 ## Table of Contents
@@ -22,7 +23,6 @@ Welcome to the House Price Prediction project! This repository contains a compre
 7. [Model Evaluation](#model-evaluation)
 8. [Model Deployment](#model-deployment)
 9. [Contributing](#contributing)
-10. [License](#license)
 
 ## Installation
 To get started, clone the repository and install the necessary dependencies:
