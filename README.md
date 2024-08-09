@@ -3,7 +3,7 @@
 ![House Prices](https://user-images.githubusercontent.com/xyz/house_prices_banner.jpg)
 
 ## Overview
-Welcome to the House Price Prediction project! This repository contains a comprehensive machine learning pipeline designed to predict house prices using various regression techniques. Our goal is to leverage data science to provide accurate and reliable predictions, enabling better decision-making in the real estate market.
+Welcome to the House Price Prediction project! This repository contains a comprehensive machine learning pipeline designed to predict house prices using Lasso regression technique. My goal is to leverage data science to provide accurate and reliable predictions, enabling better decision-making in the real estate market.
 
 ## Features
 - **Data Preprocessing**: Clean and prepare raw data for analysis.
@@ -28,7 +28,7 @@ Welcome to the House Price Prediction project! This repository contains a compre
 To get started, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/yourusername/house-price-prediction.git
+git clone https://github.com/yordanossimegnew/End_to_End_House_Price_Prediction.git
 cd house-price-prediction
 pip install -r requirements.txt
 ```
@@ -64,6 +64,7 @@ house-price-prediction/
 │   ├── train.py
 │   ├── evaluate.py
 │   └── predict.py
+├── reports
 ├── README.md
 └── requirements.txt
 ```
@@ -81,7 +82,7 @@ def preprocess_data(data):
 ```
 
 ## Feature Engineering
-Feature engineering involves creating new features and transforming existing ones to improve model performance. Techniques used include log transformation and encoding categorical variables.
+Feature engineering involves creating new features and transforming existing ones to improve model performance. Techniques used include log transformation, encoding categorical variables, and binarize skewed features.
 
 ```python
 def feature_engineering(data):
@@ -122,10 +123,3 @@ def predict(data):
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this README file to better match your project specifics and personal preferences!
