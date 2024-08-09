@@ -65,7 +65,7 @@ NUMERICAL_TO_IMPUTE = 'LotFrontage'
 YEAR_VARIABLE = 'YearRemodAdd'
 
 # variables to transofmr
-NUMERICAL_LOG = ['LotFrontage', '1stFlrSF', 'GrLivArea', 'SalePrice']
+NUMERICAL_LOG = ['LotFrontage', '1stFlrSF', 'GrLivArea']
 
 
 # variables to encode
