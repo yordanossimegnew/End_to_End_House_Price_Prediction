@@ -31,21 +31,21 @@ def splitting_data(data, target):
 
 
 def impute_na(data, var, replacement="Missing"):
-    return data[var].fillna(replacement, inplace=True)
+    return data[var].fillna(replacement)
 
 # 4. Capture elapsed year values
 
 
 def elapsed_year(data, var, ref_var="YrSold"):
-    data[var] = data[ref_var] - data[var]
-    return data[var]
+    return (data[ref_var] - data[var])
+    
 
 # 5. Log transform of numerical variables
 
 
 def log_transform(data, var):
-    data[var] = np.log(data(var))
-    return data[var]
+    return np.log(data[var])
+  
 
 # 6. Removing Rare Labels
 
